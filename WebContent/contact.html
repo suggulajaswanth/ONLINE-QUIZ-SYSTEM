@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta charset="ISO-8859-1">
+<title>CONTACT</title>
+<link rel="stylesheet" type="text/css" href="reg.css">
+<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body bgcolor="#000">
+ <div class="bgimage">
+<CENTER><form name="regi" action="Contacts" method="post" style="padding-top: 90px;">
+  <img src="img/contact.svg" width="8%">
+<h2>CONTACT FORM</h2>
+  <ul>
+<li><input type="text" name="uname" placeholder="USERNAME" id="r1" style="width:300px; height: 30px;"><br/></li>
+
+ 
+<li><input type="text" name="email" placeholder="EMAIL" id="r2" style="width:300px; height: 30px;"><br/></li>
+ 
+<li><input type="text" name="sub" placeholder="SUBJECT" id="r3" style="width:300px; height: 30px;"><br/></li>
+
+<li><textarea name="msg" placeholder="MESSAGE" width="20%" style="width:300px; height:70px; "></textarea></li>
+
+<li><button type="submit" value="Submit" id="button" class="btns">SUBMIT</button></li></ul>
+</form></CENTER>
+<script type="text/javascript">
+function save(){
+var user = document.getElementById("user").value;
+var pwd = document.getElementById("pwd").value;
+alert("username"+user+"password"+pwd);
+}
+</script>
+
+<div class="contact">
+	<img src="img/gmail.png"><span>suggulajaswanth@gmail.com</span>
+	<img src="img/phone.png"><span>+91 9441307740</span>
+
+</div>
+
+</body>
+
+</html>
