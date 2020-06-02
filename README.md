@@ -13,4 +13,8 @@ FOR CONTACT FORM:
 6.CREATE A NEW TABLE AND NAME IT AS 'contact'.
 7.ADD 4 COLUMNS OF NAMES-uname,email,sub,msg.
 8.OPEN YOUR ECLIPSE AND RUN 'index.html'(ITS THE MAIN PAGE).
-                    ----IT'S DONE---- 
+                      ----IT'S DONE---- 
+
+#PROGRAMMING LANGUAGES USED:HTML,CSS,JAVASCRIPT,SERVLETS,JSP
+#DATABASE:MYSQL
+                    
